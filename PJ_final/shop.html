@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="fruit juice, flavors, concentrate, wholesale, juice">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PennyJuice || Fresh Ingredients And Rainbow Of Flavors</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+
+</head>
+
+
+<body>
+  <section id="header">
+    <img src="pics/pj_logo1.png" alt="pglogo" class="img">
+    <p>it makes cents.</p>
+
+    <div class="row"><a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <div class="column">
+        <i class="gg-search"></i>
+      </div>
+      <div class="column">
+        <i class="gg-shopping-cart"></i>
+      </div>
+    </div>
+  </section>
+
+  <div id="nav">
+    <a href="contact.html">Contact</a></li>
+    <a href="faq.html">FAQ</a></li>
+    <a href="about.html">About Us</a></li>
+    <a href="shop.html">Shop</a></li>
+    <a href="index.html" class="active">Home</a></li>
+  </div>
+
+
+  <div class="container">
+    <div class="img-col">
+      <img src="pics/optimized_bottles.jpg" id="bottle" alt="optimized_bottles">
+    </div>
+    <div class="text-column">
+      <h1>Flavored Juice Blend Concentrate</h1>
+      <div class="star-rating">
+        <input type="radio" name="stars" id="star-a" value="5" />
+        <label for="star-a"></label>
+
+        <input type="radio" name="stars" id="star-b" value="4" />
+        <label for="star-b"></label>
+
+        <input type="radio" name="stars" id="star-c" value="3" />
+        <label for="star-c"></label>
+
+        <input type="radio" name="stars" id="star-d" value="2" />
+        <label for="star-d"></label>
+
+        <input type="radio" name="stars" id="star-e" value="1" />
+        <label for="star-e"></label>
+      </div>
+      <p>1 Case Makes 24 Gallons!
+        (6 - 1/2 Gallon Containers per Case)
+        Case Price - $159.00 / Cost per Gallon - $6.62 / 5.1 Cents per Ounce
+        Free Delivery - Minimum Order One Case - Six Flavors per Case
+        All Products Are 100% Fruit Juice Blends When Reconstituted 1+7 With Water
+        *Attention* Order Bottles Only in Increments of 6
+        1 Gallon Pre Measured Mix Pitchers Provided With Opening Order</p>
+    </div>
+  </div>
+  <div class="flavors">
+    <form>
+      <p>Choose Flavor</p>
+      <td><select name="product" id="product">
+          <option value="Cherry">CHERRY</option>
+          <option value="Cran-Apple">CRAN-APPLE</option>
+          <option value="Orange">ORANGE</option>
+          <option value="Berry">BERRY</option>
+        </select>
+    </form>
+    <form>
+      <p>Quantity</p>
+      <input type="number" name="quantity" id="quantity" min="1" max="10">
+    </form>
+    <form>
+      <p>Price</p>
+      <input type="number" name="price_drink" id="price" min="$10" max="$100">
+    </form>
+  </div>
+
+  <button class="btn">Add to cart</button>
+
+  <div id="reviews">
+
+    <h1>Customer Reviews</h1>
+    <br>
+
+    <div class="review">
+      <table>
+        <tr>
+          <td>
+            <h2>Mikael P.</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </td>
+          <td>
+            <p>Great flavor and healthier than some other juices out there!</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Anastasia M.</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+
+          </td>
+          <td>
+            <p>Totally worth it! Good taste and affordable.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>Jordan O.</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+
+          </td>
+          <td>
+            <p>Definitely worth the price, easy storage too. </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
+  <button class="btn">Write a Review!</button>
+  <footer>
+    <br>
+    <div class="footer-content">
+      <hr class="footer">
+      <div class="row">
+        <div class="column">
+          <i class="bi bi-geo-alt-fill"></i>
+          <p>915 40th Ave. Bettendorf IA 52722 </p>
+
+        </div>
+        <div class="column"><a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div class="column"><i class="bi bi-telephone"></i> 563-386-1996
+        </div>
+
+      </div>
+    </div>
+    <div class="p-footer">
+      <p>2023 the content on this website is owned by us and our licensors. Do
+        not copy any
+        content (including
+        images)
+        without our consent.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
